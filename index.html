@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Practica_1</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/logo.png" alt="logo">
+    </header>
+    
+    <nav class="main-nav">
+        <a href="#garfield" class="nav-link">Garfield</a>
+        <a href="#duches" class="nav-link">Dushess</a>
+        <a href="#cat" class="nav-link">The Cat</a>
+        <a href="#luna" class="nav-link">Luna</a>
+    </nav>  
+    
+    <a href="burger" class="burger" onclick="myFunction()"></a>
+        <i class="fa fa-bars"></i>
+    </a>
+    <script>
+        const buger = document.querySelector('.burger')
+        const main = document.getElementById('.mainnav')
+        buger.addEventListener('click',() =>{main.classList.toggle('responsive')})
+    </script>
+
+    <section>
+        <section class="main-sec">
+            <div class="personaje">
+                <div class="foto">
+                    <img src="imagenes/Garfield.png" alt="Garfield - Garfield and Friends">
+                </div>
+
+                <div class="texto">
+                    <h2>Garfield</h2>
+                    <p>Garfield es un gato atigrado naranja bípedo y con sobrepeso conocido por su pereza, sarcasmo, arrogancia, egoísmo y amor por la comida, especialmente lasaña y otros platos a base de harina. No le gustan las pasas y 
+                        Con el paso de los años, la apariencia de Garfield ha cambiado mucho. En los primeros años de la tira, fue dibujado de manera más realista y era mucho más grande antes de adoptar una apariencia más caricaturesca y adelgazar o volverse más pequeño
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="main-sec">
+            <div class="personaje">
+                <div class="foto">
+                    <img src="imagenes/Dushess.png" alt="Dushess - The Aristocats">
+                </div>
+                <div class="texto">
+                    <h2>Duchess</h2>
+                    <p>
+                        Duchess es muy elegante, hermosa y femenina, siendo la mascota de un aristócrata. Es muy devota de su dueña, Madame Adelaide Bonfamille. Ella es amable y amigable con todos. Ella es afectuosa y protectora con sus hijos y también trata de alentarlos a convertirse en miembros adecuados de la sociedad francesa. También es una conocedora de la música y presumiblemente enseña a sus gatitos a cantar y tocar el piano.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="main-sec">
+            <div class="personaje">
+                <div class="foto">
+                    <img src="imagenes/The Cat.png" alt="The Cat - Coraline">
+                </div>
+                    
+                <div class="texto">
+                    <h2>The cat</h2>
+                    <p>
+                        El Gato es muy sarcástico e irónico. Inicialmente, El Gato se muestra impaciente y sarcástico con Coraline por satirizarlo y llamarlo "cobarde", actos que detesta con intensidad. Finalmente, El Gato poco a poco parece más apegado a Coraline. Según Wybie Lovat, The Cat es un animal salvaje, pero los actos de cuidado de Coraline y Wybie por The Cat cuestionan el reclamo.  
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="main-sec">
+            <div class="personaje">
+                <div class="foto">
+                    <img src="imagenes/Luna.png" alt="Luna - Sailor Moon">
+                </div>
+                    
+                <div class="texto">
+                    <h2>Luna</h2>
+                    <p>
+                        La personalidad de Luna es muy diversa a lo largo del anime, ella es de carácter tranquilo y calculador, también llega a molestarse con frecuencia cuando Usagi no quiere hacer su deber (tanto como Sailor Guardian como estudiante), por lo cual la regaña frecuentemente. Posee una gran sabiduría, con la cual guía a las chicas mientras logran adaptarse a su nueva responsabilidad como Sailors.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <section>
+            <img src="" alt="logo-negativo">
+            <nav class="footer-nav">
+                <a href="#">enlace 1</a>
+                <a href="#">enlace 2</a>
+                <a href="#">enlace 3</a>
+                <a href="#">enlace 4</a>
+            </nav>
+        </section>
+        <section>
+            <a href="#">Politicas de privacidad</a>
+            <a href="#">Politicas de cookies</a>
+            <a href="#">Legales</a>
+        </section>
+        <section>
+            <p>Dirección</p>
+            <p>Telefono</p>
+            <p>Correo electronico</p>
+        </section>
+    </footer>
+</body>
+
+</html>
